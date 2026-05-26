@@ -2,8 +2,8 @@ package heathcare;
 
 class Receptionist extends Person {
 
-    Receptionist(int id, String name) {
-        super(id, name);
+    Receptionist(String name,int age,String email) {
+        super( name, age, email, );
     }
 
     void registerPatient() {

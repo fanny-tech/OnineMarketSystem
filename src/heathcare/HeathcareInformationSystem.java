@@ -17,37 +17,13 @@ public class HealthcareInformationSystem {
         patients.add(new Patient(2, "Alice", 20, "Typhoid"));
 
         // Add Doctors
-        doctors.add(new Doctor(101, "Dr John", 45, "Cardiology"));
-        doctors.add(new Doctor(102, "Dr Sarah", 38, "Dentist"));
+        doctors.add(new Doctor("karisa", 56, "karis@gmail.com", "Cardiology"));
+        doctors.add(new Doctor("keven", 45, "kev@gmail.com", "Dentist"));
 
         // Add Pharmacists
-        pharmacists.add(new Pharmacist(201, "Peter", 30, "Paracetamol"));
+        pharmacists.add(new Pharmacist("keza", 35, "kez@gmail.com", "Paracetamol"));
 
         // Add Receptionists
-        receptionists.add(new Receptionist(301, "Grace", 25, "Morning"));
+        receptionists.add(new Receptionist("alice",33,"alic@gmail.com");
 
-        // Display Patients
-        System.out.println("===== PATIENTS =====");
-        for (Patient p : patients) {
-            p.displayInfo();
-        }
 
-        // Display Doctors
-        System.out.println("===== DOCTORS =====");
-        for (Doctor d : doctors) {
-            d.displayInfo();
-        }
-
-        // Display Pharmacists
-        System.out.println("===== PHARMACISTS =====");
-        for (Pharmacist ph : pharmacists) {
-            ph.displayInfo();
-        }
-
-        // Display Receptionists
-        System.out.println("===== RECEPTIONISTS =====");
-        for (Receptionist r : receptionists) {
-            r.displayInfo();
-        }
-    }
-}
