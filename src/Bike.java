@@ -1,5 +1,6 @@
  public class Bike extends Vehicle {
      public Bike(String brand, int rentalprice) {
+
          super(brand, rentalprice);
      }
 

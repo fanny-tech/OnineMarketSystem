@@ -14,10 +14,14 @@ public class Employee {
             setSalary(salary);
         }
 
-        public int getEmployeeId()        { return employeeId; }
-        public String getEmployeeName()   { return employeeName; }
-        public String getEmployeeStatus() { return employeeStatus; }
-        public double getSalary()         { return salary; }
+        public int getEmployeeId()        {
+            return employeeId; }
+        public String getEmployeeName()   {
+            return employeeName; }
+        public String getEmployeeStatus() {
+            return employeeStatus; }
+        public double getSalary()         {
+            return salary; }
 
         public void setSalary(double salary) {
             if (salary < 0) {

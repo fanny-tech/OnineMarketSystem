@@ -5,6 +5,7 @@ public abstract class Payment {
     protected Employee employee;
 
     public Payment(Employee employee) {
+
         this.employee = employee;
     }
 
